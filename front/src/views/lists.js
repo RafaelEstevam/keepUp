@@ -51,10 +51,10 @@ class App extends Component {
                   <div class="col-sm-12 shadow-sm bg-white rounded-lg mt-3 p-3">
                     <div class="row">
                       <div class="col-sm-2">
-                        <img src="#" />
+                        <img src="https://www.plantapronta.com.br/projetos/140/01.jpg" className="img-fluid" />
                       </div>
                       <div class="col-sm-8">
-                        <p>Casa 3 quartos no Jardim Aquárius</p>
+                        <p>Arnaldo Piralli 34, Jardim Boa Vista</p>
                       </div>
                       <div class="col-sm-2">
                         <Link to="/score" className="btn btn-success">Avaliar</Link>
@@ -64,10 +64,10 @@ class App extends Component {
                   <div class="col-sm-12 shadow-sm bg-white rounded-lg mt-3 p-3">
                     <div class="row">
                       <div class="col-sm-2">
-                        <img src="#" />
+                        <img src="https://www.plantapronta.com.br/projetos/140/01.jpg" className="img-fluid" />
                       </div>
                       <div class="col-sm-8">
-                        <p>Casa 3 quartos no Jardim Aquárius</p>
+                        <p>Arnaldo Piralli 34, Jardim Boa Vista</p>
                       </div>
                       <div class="col-sm-2">
                         <Link to="/score" className="btn btn-success">Avaliar</Link>
@@ -77,10 +77,10 @@ class App extends Component {
                   <div class="col-sm-12 shadow-sm bg-white rounded-lg mt-3 p-3">
                     <div class="row">
                       <div class="col-sm-2">
-                        <img src="#" />
+                        <img src="https://www.plantapronta.com.br/projetos/140/01.jpg" className="img-fluid" />
                       </div>
                       <div class="col-sm-8">
-                        <p>Casa 3 quartos no Jardim Aquárius</p>
+                        <p>Arnaldo Piralli 34, Jardim Boa Vista</p>
                       </div>
                       <div class="col-sm-2">
                         <Link to="/score" className="btn btn-success">Avaliar</Link>
@@ -90,10 +90,10 @@ class App extends Component {
                   <div class="col-sm-12 shadow-sm bg-white rounded-lg mt-3 p-3">
                     <div class="row">
                       <div class="col-sm-2">
-                        <img src="#" />
+                        <img src="https://www.plantapronta.com.br/projetos/140/01.jpg" className="img-fluid" />
                       </div>
                       <div class="col-sm-8">
-                        <p>Casa 3 quartos no Jardim Aquárius</p>
+                        <p>Arnaldo Piralli 34, Jardim Boa Vista</p>
                       </div>
                       <div class="col-sm-2">
                         <Link to="/score" className="btn btn-success">Avaliar</Link>
@@ -103,10 +103,10 @@ class App extends Component {
                   <div class="col-sm-12 shadow-sm bg-white rounded-lg mt-3 p-3">
                     <div class="row">
                       <div class="col-sm-2">
-                        <img src="#" />
+                        <img src="https://www.plantapronta.com.br/projetos/140/01.jpg" className="img-fluid" />
                       </div>
                       <div class="col-sm-8">
-                        <p>Casa 3 quartos no Jardim Aquárius</p>
+                        <p>Arnaldo Piralli 34, Jardim Boa Vista</p>
                       </div>
                       <div class="col-sm-2">
                         <Link to="/score" className="btn btn-success">Avaliar</Link>
@@ -116,10 +116,10 @@ class App extends Component {
                   <div class="col-sm-12 shadow-sm bg-white rounded-lg mt-3 p-3">
                     <div class="row">
                       <div class="col-sm-2">
-                        <img src="#" />
+                        <img src="https://www.plantapronta.com.br/projetos/140/01.jpg" className="img-fluid" />
                       </div>
                       <div class="col-sm-8">
-                        <p>Casa 3 quartos no Jardim Aquárius</p>
+                        <p>Arnaldo Piralli 34, Jardim Boa Vista</p>
                       </div>
                       <div class="col-sm-2">
                         <Link to="/score" className="btn btn-success">Avaliar</Link>
@@ -129,205 +129,10 @@ class App extends Component {
                   <div class="col-sm-12 shadow-sm bg-white rounded-lg mt-3 p-3">
                     <div class="row">
                       <div class="col-sm-2">
-                        <img src="#" />
+                        <img src="https://www.plantapronta.com.br/projetos/140/01.jpg" className="img-fluid" />
                       </div>
                       <div class="col-sm-8">
-                        <p>Casa 3 quartos no Jardim Aquárius</p>
-                      </div>
-                      <div class="col-sm-2">
-                        <Link to="/score" className="btn btn-success">Avaliar</Link>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-sm-12 shadow-sm bg-white rounded-lg mt-3 p-3">
-                    <div class="row">
-                      <div class="col-sm-2">
-                        <img src="#" />
-                      </div>
-                      <div class="col-sm-8">
-                        <p>Casa 3 quartos no Jardim Aquárius</p>
-                      </div>
-                      <div class="col-sm-2">
-                        <Link to="/score" className="btn btn-success">Avaliar</Link>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-sm-12 shadow-sm bg-white rounded-lg mt-3 p-3">
-                    <div class="row">
-                      <div class="col-sm-2">
-                        <img src="#" />
-                      </div>
-                      <div class="col-sm-8">
-                        <p>Casa 3 quartos no Jardim Aquárius</p>
-                      </div>
-                      <div class="col-sm-2">
-                        <Link to="/score" className="btn btn-success">Avaliar</Link>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-sm-12 shadow-sm bg-white rounded-lg mt-3 p-3">
-                    <div class="row">
-                      <div class="col-sm-2">
-                        <img src="#" />
-                      </div>
-                      <div class="col-sm-8">
-                        <p>Casa 3 quartos no Jardim Aquárius</p>
-                      </div>
-                      <div class="col-sm-2">
-                        <Link to="/score" className="btn btn-success">Avaliar</Link>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-sm-12 shadow-sm bg-white rounded-lg mt-3 p-3">
-                    <div class="row">
-                      <div class="col-sm-2">
-                        <img src="#" />
-                      </div>
-                      <div class="col-sm-8">
-                        <p>Casa 3 quartos no Jardim Aquárius</p>
-                      </div>
-                      <div class="col-sm-2">
-                        <Link to="/score" className="btn btn-success">Avaliar</Link>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-sm-12 shadow-sm bg-white rounded-lg mt-3 p-3">
-                    <div class="row">
-                      <div class="col-sm-2">
-                        <img src="#" />
-                      </div>
-                      <div class="col-sm-8">
-                        <p>Casa 3 quartos no Jardim Aquárius</p>
-                      </div>
-                      <div class="col-sm-2">
-                        <Link to="/score" className="btn btn-success">Avaliar</Link>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-sm-12 shadow-sm bg-white rounded-lg mt-3 p-3">
-                    <div class="row">
-                      <div class="col-sm-2">
-                        <img src="#" />
-                      </div>
-                      <div class="col-sm-8">
-                        <p>Casa 3 quartos no Jardim Aquárius</p>
-                      </div>
-                      <div class="col-sm-2">
-                        <Link to="/score" className="btn btn-success">Avaliar</Link>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-sm-12 shadow-sm bg-white rounded-lg mt-3 p-3">
-                    <div class="row">
-                      <div class="col-sm-2">
-                        <img src="#" />
-                      </div>
-                      <div class="col-sm-8">
-                        <p>Casa 3 quartos no Jardim Aquárius</p>
-                      </div>
-                      <div class="col-sm-2">
-                        <Link to="/score" className="btn btn-success">Avaliar</Link>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-sm-12 shadow-sm bg-white rounded-lg mt-3 p-3">
-                    <div class="row">
-                      <div class="col-sm-2">
-                        <img src="#" />
-                      </div>
-                      <div class="col-sm-8">
-                        <p>Casa 3 quartos no Jardim Aquárius</p>
-                      </div>
-                      <div class="col-sm-2">
-                        <Link to="/score" className="btn btn-success">Avaliar</Link>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-sm-12 shadow-sm bg-white rounded-lg mt-3 p-3">
-                    <div class="row">
-                      <div class="col-sm-2">
-                        <img src="#" />
-                      </div>
-                      <div class="col-sm-8">
-                        <p>Casa 3 quartos no Jardim Aquárius</p>
-                      </div>
-                      <div class="col-sm-2">
-                        <Link to="/score" className="btn btn-success">Avaliar</Link>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-sm-12 shadow-sm bg-white rounded-lg mt-3 p-3">
-                    <div class="row">
-                      <div class="col-sm-2">
-                        <img src="#" />
-                      </div>
-                      <div class="col-sm-8">
-                        <p>Casa 3 quartos no Jardim Aquárius</p>
-                      </div>
-                      <div class="col-sm-2">
-                        <Link to="/score" className="btn btn-success">Avaliar</Link>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-sm-12 shadow-sm bg-white rounded-lg mt-3 p-3">
-                    <div class="row">
-                      <div class="col-sm-2">
-                        <img src="#" />
-                      </div>
-                      <div class="col-sm-8">
-                        <p>Casa 3 quartos no Jardim Aquárius</p>
-                      </div>
-                      <div class="col-sm-2">
-                        <Link to="/score" className="btn btn-success">Avaliar</Link>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-sm-12 shadow-sm bg-white rounded-lg mt-3 p-3">
-                    <div class="row">
-                      <div class="col-sm-2">
-                        <img src="#" />
-                      </div>
-                      <div class="col-sm-8">
-                        <p>Casa 3 quartos no Jardim Aquárius</p>
-                      </div>
-                      <div class="col-sm-2">
-                        <Link to="/score" className="btn btn-success">Avaliar</Link>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-sm-12 shadow-sm bg-white rounded-lg mt-3 p-3">
-                    <div class="row">
-                      <div class="col-sm-2">
-                        <img src="#" />
-                      </div>
-                      <div class="col-sm-8">
-                        <p>Casa 3 quartos no Jardim Aquárius</p>
-                      </div>
-                      <div class="col-sm-2">
-                        <Link to="/score" className="btn btn-success">Avaliar</Link>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-sm-12 shadow-sm bg-white rounded-lg mt-3 p-3">
-                    <div class="row">
-                      <div class="col-sm-2">
-                        <img src="#" />
-                      </div>
-                      <div class="col-sm-8">
-                        <p>Casa 3 quartos no Jardim Aquárius</p>
-                      </div>
-                      <div class="col-sm-2">
-                        <Link to="/score" className="btn btn-success">Avaliar</Link>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-sm-12 shadow-sm bg-white rounded-lg mt-3 p-3">
-                    <div class="row">
-                      <div class="col-sm-2">
-                        <img src="#" />
-                      </div>
-                      <div class="col-sm-8">
-                        <p>Casa 3 quartos no Jardim Aquárius</p>
+                        <p>Arnaldo Piralli 34, Jardim Boa Vista</p>
                       </div>
                       <div class="col-sm-2">
                         <Link to="/score" className="btn btn-success">Avaliar</Link>
