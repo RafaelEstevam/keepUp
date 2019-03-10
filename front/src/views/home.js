@@ -22,7 +22,10 @@ class App extends Component {
       <div>
         <nav className="navbar navbar-expand navbar-dark bg-dark">
           <a className="navbar-brand" href="#">França Imóveis</a>
-          <Link to="/dashboard" class="text-white">Acesso</Link>
+          
+          
+          <Link to="/dashboard" class="text-white" text="right">Acesso</Link>
+          
         </nav>
         <div class="row-fluid bg-light">
           <div class="col-sm-12">
