@@ -52,8 +52,6 @@ class App extends Component {
                       <Form label="Playground" text="*Análise da Playground"/>
                       <Form label="Piscina" text="*Análise estado da Piscina"/>
                       <Form label="Churrasqueira" text="*Análise Churrasqueira"/>
-                      <Form label="Notas do avaliador" text="*Notas avaliador"/>
-                      <Form label="Pontuação final" text="*Análise final"/>
                         <div className="row-fluid bg-light border p-3 mb-2">
                           <div className="row">
                             <div className="col-sm-12">
