@@ -42,18 +42,18 @@ class App extends Component {
                     <p>Preencha os dados abaixo para completar a avaliação do imóvel</p>
                     <div className="row">
                       <div className="col-sm-8">
-                      <Form label="Hidráulica" text="*Análise da rede hidráulica da residência"/>
-                      <Form label="Infiltrações" text="*Análise infiltrações em áreas da residência"/>
-                      <Form label="Elétrica" text="*Análise da rede elétrica da residência"/>
-                      <Form label="Estrutura" text="*Análise da rede hidráulica da residência"/>
-                      <Form label="Gas" text="*Análise da rede hidráulica da residência"/>
-                      <Form label="Cobertura" text="*Análise da rede hidráulica da residência"/>
-                      <Form label="Cozinha" text="*Análise da rede hidráulica da residência"/>
-                      <Form label="Playground" text="*Análise da rede hidráulica da residência"/>
-                      <Form label="Piscina" text="*Análise da rede hidráulica da residência"/>
-                      <Form label="Churrasqueira" text="*Análise da rede hidráulica da residência"/>
-                      <Form label="Notas do avaliador" text="*Análise da rede hidráulica da residência"/>
-                      <Form label="Pontuação final" text="*Análise da rede hidráulica da residência"/>
+                      <Form label="Hidráulica" text="*Análise Torneiras, Registros e Válvulas."/>
+                      <Form label="Infiltrações" text="*Análise Descarga, Sifões(pia e tanque)."/>
+                      <Form label="Elétrica" text="*Análise Tomadas, Interruptores e Fusíveis."/>
+                      <Form label="Estrutura" text="*Análise Fachada e Pintura."/>
+                      <Form label="Gas" text="*Análise Gás encando"/>
+                      <Form label="Cobertura" text="*Análise telhado e derivados."/>
+                      <Form label="Cozinha" text="*Análise geral cozinha"/>
+                      <Form label="Playground" text="*Análise da Playground"/>
+                      <Form label="Piscina" text="*Análise estado da Piscina"/>
+                      <Form label="Churrasqueira" text="*Análise Churrasqueira"/>
+                      <Form label="Notas do avaliador" text="*Notas avaliador"/>
+                      <Form label="Pontuação final" text="*Análise final"/>
                         <div className="row-fluid bg-light border p-3 mb-2">
                           <div className="row">
                             <div className="col-sm-12">
