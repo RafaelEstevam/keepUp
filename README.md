@@ -41,7 +41,9 @@
     ~/Documents/Git/keepUp/front (master)
     $ npm start
 
+## 5. Executado o projeto 
 
+### O projeto será executado o seu navegador padrão no enderço: **http://localhost:3000/** 
 
 
 
