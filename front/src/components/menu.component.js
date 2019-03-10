@@ -29,7 +29,7 @@ class menu extends Component{
 
         return(
             <div className="col-sm-2 bg-dark">
-                <Link to="/" className="nav-link">Dashboard</Link>
+                <Link to="/dashboard" className="nav-link">Painel de Controle</Link>
                 <Link to="/scores" className="nav-link">Avaliações</Link>
                 <Link to="/profile" className="nav-link">Perfil</Link>  
             </div>

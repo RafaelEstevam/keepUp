@@ -5,7 +5,7 @@ import './styles/bootstrap.min.css';
 import Home from './views/home';
 import ScoreList from './views/lists';
 import Score from './views/score';
-import Page from './views/page';
+import Page from './views/dashboard';
 import * as serviceWorker from './serviceWorker';
 import {BrowserRouter, Route, Switch, Redirect} from 'react-router-dom';
 
@@ -24,7 +24,7 @@ ReactDOM.render(
                 <Route path="/" exact={true} component={Home} />
                 <Route path="/scores" exact={true} component={ScoreList} />
                 <Route path="/score" exact={true} component={Score} />
-                <Route path="/page" exact={true} component={Page} />
+                <Route path="/dashboard" exact={true} component={Page} />
                 {/* <Route path="/register" exact={true} component={Register} />
                 <Route path="/logout" exact={true} component={Logout}/>
                 <Route path="/profile/:user_name" exact={true} component={Profile}/>

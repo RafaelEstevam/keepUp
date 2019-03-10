@@ -1,12 +1,7 @@
 import React, { Component } from 'react';
 import '../styles/home.template.css';
 import Top from '../components/top.component';
-import Menu from '../components/menu.component';
-import ImoveisAvaliados from '../components/imoveisAvaliados.component';
-import UltimasAvalicoes from '../components/ultimasAvaliacoes.component';
-import TimeLine from '../boxes/timeline.box';
-import $ from 'jquery';
-import connection from '../connection';
+import { Link } from 'react-router-dom';
 
 class App extends Component {
 
@@ -25,64 +20,59 @@ class App extends Component {
 
     return (
       <div>
-        <Top url={this.state.url} />
-        <div className="row-fluid">
-          <div className="col-sm-12 bg-light">
-            <div className="row">
-              <Menu />
-              <div class="col-sm-10 p-3 bg-light">
-                <h1 class="font-weight-light">Dashboard</h1>
+        <nav className="navbar navbar-expand navbar-dark bg-dark">
+          <a className="navbar-brand" href="#">França Imóveis</a>
+          <Link to="/dashboard" class="text-white">Acesso</Link>
+        </nav>
+        <div class="row-fluid bg-light">
+          <div class="col-sm-12">
+            <div class="row">
+              <div class="col-sm-6 pt-3 ">
+                <div class="mx-auto col-sm-6 mt-5">
+                  <h1>Oportunidades em todo lugar</h1>
+                  <p>Ganhe o seu dinheiro, dirija no seu tempo e conquiste seus objetivos.</p>
+                  <button class="btn btn-primary btn-lg">Cadastre-se</button>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <img src="https://markeninja.com.br/wp-content/uploads/2018/10/176319-corretor-de-imoveis-20-o-que-significa-e-por-que-devo-me-tornar-um.jpg" class="img-fluid" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <section class="container mt-5">
+          <div class="row pt-3">
+            <div class="col-sm-4">
+              <h2 class="font-weight-light mb-3">Ganhe dinheiro com suas avaliações</h2>
+              <p class="font-weight-bold">Bla bla bla bla Bla bla bla bla Bla bla bla bla Bla bla bla bla</p>
+            </div>
+            <div class="col-sm-4">
+              <h2 class="font-weight-light mb-3">Acesso a treinamentos para se tornar avaliador</h2>
+              <p class="font-weight-bold">Bla bla bla bla Bla bla bla bla Bla bla bla bla Bla bla bla bla</p>
+            </div>
+            <div class="col-sm-4">
+              <h2 class="font-weight-light mb-3">Ganhe prêmios</h2>
+              <p class="font-weight-bold">Bla bla bla bla Bla bla bla bla Bla bla bla bla Bla bla bla bla</p>
+            </div>
+          </div>
+        </section>
+        <section class="row-fluid bg-light py-5 mt-5">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12">
                 <div class="row">
                   <div class="col-sm-8">
-                    <div class="row-fluid bg-white">
-                      <div class="row">
-                        <div class="col-sm-12">
-                          <h2 class="font-weight-light">Extrato</h2>
-                          <h1 class="text-center display-3">R$ 1300.00</h1>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="row-fluid bg-white">
-                      <div class="col-sm-12">
-                        <h3 class="font-weight-light">Imóveis avaliados</h3>
-                        <ImoveisAvaliados data="13/12/10" rua="Arnaldo Piralli 34, Jardim Boa Vista" valor="R$ 130.00" />
-                        <ImoveisAvaliados data="13/12/10" rua="Arnaldo Piralli 34, Jardim Boa Vista" valor="R$ 130.00" />
-                        <ImoveisAvaliados data="13/12/10" rua="Arnaldo Piralli 34, Jardim Boa Vista" valor="R$ 130.00" />
-                        <ImoveisAvaliados data="13/12/10" rua="Arnaldo Piralli 34, Jardim Boa Vista" valor="R$ 130.00" />
-                        <ImoveisAvaliados data="13/12/10" rua="Arnaldo Piralli 34, Jardim Boa Vista" valor="R$ 130.00" />
-                        <ImoveisAvaliados data="13/12/10" rua="Arnaldo Piralli 34, Jardim Boa Vista" valor="R$ 130.00" />
-                        <ImoveisAvaliados data="13/12/10" rua="Arnaldo Piralli 34, Jardim Boa Vista" valor="R$ 130.00" />
-                        <ImoveisAvaliados data="13/12/10" rua="Arnaldo Piralli 34, Jardim Boa Vista" valor="R$ 130.00" />
-                        <ImoveisAvaliados data="13/12/10" rua="Arnaldo Piralli 34, Jardim Boa Vista" valor="R$ 130.00" />
-                        <ImoveisAvaliados data="13/12/10" rua="Arnaldo Piralli 34, Jardim Boa Vista" valor="R$ 130.00" />
-                        <ImoveisAvaliados data="13/12/10" rua="Arnaldo Piralli 34, Jardim Boa Vista" valor="R$ 130.00" />
-                        <ImoveisAvaliados data="13/12/10" rua="Arnaldo Piralli 34, Jardim Boa Vista" valor="R$ 130.00" />
-                      </div>
-                    </div>
+                    <h2 class="display-4">Torne-se Avaliador de Imóveis</h2>
                   </div>
                   <div class="col-sm-4">
-                    <div class="row-fluid bg-white">
-                      <div class="col-sm-12">
-                        <h2 class="font-weight-light">Score</h2>
-                        <div class="row mb-3">
-                          <div class="col-sm-12">
-                            <h2 class="display-3 text-center">4.3</h2>
-                          </div>
-                        </div>
-                        <h2 class="font-weight-light mb-3">Últimas avaliações</h2>
-                        <UltimasAvalicoes rua="Arnaldo Piralli 34, Jardim Boa Vista" valoresPositivos="5" valoresNegativos="1" />
-                        <UltimasAvalicoes rua="Arnaldo Piralli 34, Jardim Boa Vista" valoresPositivos="5" valoresNegativos="1" />
-                        <UltimasAvalicoes rua="Arnaldo Piralli 34, Jardim Boa Vista" valoresPositivos="5" valoresNegativos="1" />
-                        <UltimasAvalicoes rua="Arnaldo Piralli 34, Jardim Boa Vista" valoresPositivos="5" valoresNegativos="1" />
-                        <UltimasAvalicoes rua="Arnaldo Piralli 34, Jardim Boa Vista" valoresPositivos="5" valoresNegativos="1" />
-                      </div>
-                    </div>
+                    <button class="btn btn-lg btn-primary col-sm-12 mb-5">Cadastre-se</button>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
+        </section>
+        <section class="row-fluid bg-dark py-5 pt-5"></section>
       </div>
     )
   }
