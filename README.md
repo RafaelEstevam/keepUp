@@ -4,6 +4,11 @@ Faça match com o imóvel de seus sonhos.
 
 ## Equipe
 
+* Daniel Willians
+* Jonathan Martins
+* Rafael Estevam
+* Felipe Ferri
+
 ## Descrição do projeto
 
 O projeto Keep Up tem como objetivo melhorar a experiência de locação de imóveis
