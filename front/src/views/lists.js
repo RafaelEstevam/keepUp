@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import '../styles/home.template.css';
 import Top from '../components/top.component';
+import Menu from '../components/menu.component';
 import TimeLine from '../boxes/timeline.box';
 import $ from 'jquery';
 import connection from '../connection'
@@ -39,11 +40,10 @@ class App extends Component {
         <Top url={this.state.url}/>
         <div className="row-fluid">
           <div className="col-sm-12 bg-light">
-            <div className="row">
-              <div class="col-sm-2 bg-dark">
-                Menu
-                {/* <Menu /> */}
-              </div>
+          <div className="row">
+              
+              <Menu />
+              
               <div class="col-sm-10 p-3 bg-light">
                 <h1 class="font-weight-light">Lista de imóveis</h1>
                 <div class="row-fluid">

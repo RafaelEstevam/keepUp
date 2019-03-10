@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import '../styles/home.template.css';
 import Top from '../components/top.component';
+import Menu from '../components/menu.component';
 import TimeLine from '../boxes/timeline.box';
 import $ from 'jquery';
 import connection from '../connection'
@@ -36,32 +37,19 @@ class App extends Component {
     
     return (
       <div>
-        <Top url={this.state.url}/>
-        <div className="row-fluid">
-          <div className="col-sm-12 bg-light">
-            <div className="row">
-              <h1 className="display-4"></h1>
-              <form className="col-sm-10 offset-sm-1">
-                <div className="row no-gutters">
-                  <input className="form-control col-sm-3" />
-                  <input className="form-control col-sm-6" />
-                  <input className="form-control col-sm-3" />
-                </div>
-                <button className="btn btn-success">Buscar</button>
-              </form>
-            </div>
+      <Top url={this.state.url}/>
+      <div className="row-fluid">
+        <div className="col-sm-12 bg-light">
+        <div className="row">
             
-            {/* <img src="#" /> */}
-          </div>
-        </div>
-        <div className="container bg-light">
-          <div className="row-fluid">
-            <div className="col-sm-12">
-                
+            <Menu />
+            
+            <div class="col-sm-10 p-3 bg-light">
             </div>
           </div>
         </div>
       </div>
+    </div>
     )
   }
 }

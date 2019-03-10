@@ -2,7 +2,7 @@ import React, {Component} from 'react'
 import TopConfig from '../configs/top.config';
 import { Link, Redirect, Route } from 'react-router-dom'
 
-class Top extends Component{
+class menu extends Component{
 
     constructor(){
         super();
@@ -28,12 +28,21 @@ class Top extends Component{
         // }
 
         return(
-            <nav className="navbar navbar-expand navbar-dark bg-dark">
-                <a className="navbar-brand" href="#">França Imóveis</a>
-                <Link className="navbar-brand float-right" to="/logout">{localStorage.getItem('user-name')}</Link>
-            </nav>
+            <div className="col-sm-2 bg-dark">
+            <div>
+            <Link to="/" className="nav-link">
+            Dashboard
+            </Link>
+            <Link to="/list" className="nav-link">
+            Avaliações
+            </Link>
+            <a className="nav-link" href="#">
+            Perfil
+            </a>
+            </div>
+            </div>
         )
     }
 }
 
-export default Top
+export default menu
