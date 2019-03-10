@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import '../styles/home.template.css';
 import Top from '../components/top.component';
 import Menu from '../components/menu.component';
+import Form from '../components/form.component';
 
 class App extends Component {
 
@@ -41,176 +42,18 @@ class App extends Component {
                     <p>Preencha os dados abaixo para completar a avaliação do imóvel</p>
                     <div className="row">
                       <div className="col-sm-8">
-                        <div className="row-fluid bg-light border p-3 mb-2">
-                          <div className="row">
-                            <div className="col-sm-9">
-                              <label className="small">Hidraulica</label>
-                              <select className="form-control">
-                                <option>1</option>
-                                <option>2</option>
-                                <option>3</option>
-                                <option>4</option>
-                                <option>5</option>
-                              </select>
-                            </div>
-                            <div className="col-sm-3">
-                              <button className="btn btn-primary">Foto</button>
-                            </div>
-                          </div>
-                        </div>
-                        <div className="row-fluid bg-light border p-3 mb-2">
-                          <div className="row">
-                            <div className="col-sm-9">
-                              <label className="small">Infiltrações</label>
-                              <select className="form-control">
-                                <option>1</option>
-                                <option>2</option>
-                                <option>3</option>
-                                <option>4</option>
-                                <option>5</option>
-                              </select>
-                            </div>
-                            <div className="col-sm-3">
-                              <button className="btn btn-primary">Foto</button>
-                            </div>
-                          </div>
-                        </div>
-                        <div className="row-fluid bg-light border p-3 mb-2">
-                          <div className="row">
-                            <div className="col-sm-9">
-                              <label className="small">Elétrica</label>
-                              <select className="form-control">
-                                <option>1</option>
-                                <option>2</option>
-                                <option>3</option>
-                                <option>4</option>
-                                <option>5</option>
-                              </select>
-                            </div>
-                            <div className="col-sm-3">
-                              <button className="btn btn-primary">Foto</button>
-                            </div>
-                          </div>
-                        </div>
-                        <div className="row-fluid bg-light border p-3 mb-2">
-                          <div className="row">
-                            <div className="col-sm-9">
-                              <label className="small">Estrutura</label>
-                              <select className="form-control">
-                                <option>1</option>
-                                <option>2</option>
-                                <option>3</option>
-                                <option>4</option>
-                                <option>5</option>
-                              </select>
-                            </div>
-                            <div className="col-sm-3">
-                              <button className="btn btn-primary">Foto</button>
-                            </div>
-                          </div>
-                        </div>
-                        <div className="row-fluid bg-light border p-3 mb-2">
-                          <div className="row">
-                            <div className="col-sm-9">
-                              <label className="small">Gas</label>
-                              <select className="form-control">
-                                <option>1</option>
-                                <option>2</option>
-                                <option>3</option>
-                                <option>4</option>
-                                <option>5</option>
-                              </select>
-                            </div>
-                            <div className="col-sm-3">
-                              <button className="btn btn-primary">Foto</button>
-                            </div>
-                          </div>
-                        </div>
-                        <div className="row-fluid bg-light border p-3 mb-2">
-                          <div className="row">
-                            <div className="col-sm-9">
-                              <label className="small">Cobertura</label>
-                              <select className="form-control">
-                                <option>1</option>
-                                <option>2</option>
-                                <option>3</option>
-                                <option>4</option>
-                                <option>5</option>
-                              </select>
-                            </div>
-                            <div className="col-sm-3">
-                              <button className="btn btn-primary">Foto</button>
-                            </div>
-                          </div>
-                        </div>
-                        <div className="row-fluid bg-light border p-3 mb-2">
-                          <div className="row">
-                            <div className="col-sm-9">
-                              <label className="small">Cozinha</label>
-                              <select className="form-control">
-                                <option>1</option>
-                                <option>2</option>
-                                <option>3</option>
-                                <option>4</option>
-                                <option>5</option>
-                              </select>
-                            </div>
-                            <div className="col-sm-3">
-                              <button className="btn btn-primary">Foto</button>
-                            </div>
-                          </div>
-                        </div>
-                        <div className="row-fluid bg-light border p-3 mb-2">
-                          <div className="row">
-                            <div className="col-sm-9">
-                              <label className="small">Playground</label>
-                              <select className="form-control">
-                                <option>1</option>
-                                <option>2</option>
-                                <option>3</option>
-                                <option>4</option>
-                                <option>5</option>
-                              </select>
-                            </div>
-                            <div className="col-sm-3">
-                              <button className="btn btn-primary">Foto</button>
-                            </div>
-                          </div>
-                        </div>
-                        <div className="row-fluid bg-light border p-3 mb-2">
-                          <div className="row">
-                            <div className="col-sm-9">
-                              <label className="small">Piscina</label>
-                              <select className="form-control">
-                                <option>1</option>
-                                <option>2</option>
-                                <option>3</option>
-                                <option>4</option>
-                                <option>5</option>
-                              </select>
-                            </div>
-                            <div className="col-sm-3">
-                              <button className="btn btn-primary">Foto</button>
-                            </div>
-                          </div>
-                        </div>
-                        <div className="row-fluid bg-light border p-3 mb-2">
-                          <div className="row">
-                            <div className="col-sm-9">
-                              <label className="small">Churrasqueira</label>
-                              <select className="form-control">
-                                <option>1</option>
-                                <option>2</option>
-                                <option>3</option>
-                                <option>4</option>
-                                <option>5</option>
-                              </select>
-                            </div>
-                            <div className="col-sm-3">
-                              <button className="btn btn-primary">Foto</button>
-                            </div>
-                          </div>
-                        </div>
+                      <Form label="Hidráulica" text="*Análise da rede hidráulica da residência"/>
+                      <Form label="Infiltrações" text="*Análise infiltrações em áreas da residência"/>
+                      <Form label="Elétrica" text="*Análise da rede elétrica da residência"/>
+                      <Form label="Estrutura" text="*Análise da rede hidráulica da residência"/>
+                      <Form label="Gas" text="*Análise da rede hidráulica da residência"/>
+                      <Form label="Cobertura" text="*Análise da rede hidráulica da residência"/>
+                      <Form label="Cozinha" text="*Análise da rede hidráulica da residência"/>
+                      <Form label="Playground" text="*Análise da rede hidráulica da residência"/>
+                      <Form label="Piscina" text="*Análise da rede hidráulica da residência"/>
+                      <Form label="Churrasqueira" text="*Análise da rede hidráulica da residência"/>
+                      <Form label="Notas do avaliador" text="*Análise da rede hidráulica da residência"/>
+                      <Form label="Pontuação final" text="*Análise da rede hidráulica da residência"/>
                         <div className="row-fluid bg-light border p-3 mb-2">
                           <div className="row">
                             <div className="col-sm-12">
