@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import '../styles/home.template.css';
 import Top from '../components/top.component';
 import Menu from '../components/menu.component';
+import ListaImovel from '../components/listaImovel.component';
 import TimeLine from '../boxes/timeline.box';
 import $ from 'jquery';
 import connection from '../connection'
@@ -48,97 +49,16 @@ class App extends Component {
               <div class="col-sm-10 p-3 bg-light">
                 <h1 class="font-weight-light">Lista de imóveis</h1>
                 <div class="row-fluid">
-                  <div class="col-sm-12 shadow-sm bg-white rounded-lg mt-3 p-3">
-                    <div class="row">
-                      <div class="col-sm-2">
-                        <img src="https://www.plantapronta.com.br/projetos/140/01.jpg" className="img-fluid" />
-                      </div>
-                      <div class="col-sm-8">
-                        <p>Arnaldo Piralli 34, Jardim Boa Vista</p>
-                      </div>
-                      <div class="col-sm-2">
-                        <Link to="/score" className="btn btn-success">Avaliar</Link>
-                      </div>
-                    </div>
-                  </div>  
-                  <div class="col-sm-12 shadow-sm bg-white rounded-lg mt-3 p-3">
-                    <div class="row">
-                      <div class="col-sm-2">
-                        <img src="https://www.plantapronta.com.br/projetos/140/01.jpg" className="img-fluid" />
-                      </div>
-                      <div class="col-sm-8">
-                        <p>Arnaldo Piralli 34, Jardim Boa Vista</p>
-                      </div>
-                      <div class="col-sm-2">
-                        <Link to="/score" className="btn btn-success">Avaliar</Link>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-sm-12 shadow-sm bg-white rounded-lg mt-3 p-3">
-                    <div class="row">
-                      <div class="col-sm-2">
-                        <img src="https://www.plantapronta.com.br/projetos/140/01.jpg" className="img-fluid" />
-                      </div>
-                      <div class="col-sm-8">
-                        <p>Arnaldo Piralli 34, Jardim Boa Vista</p>
-                      </div>
-                      <div class="col-sm-2">
-                        <Link to="/score" className="btn btn-success">Avaliar</Link>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-sm-12 shadow-sm bg-white rounded-lg mt-3 p-3">
-                    <div class="row">
-                      <div class="col-sm-2">
-                        <img src="https://www.plantapronta.com.br/projetos/140/01.jpg" className="img-fluid" />
-                      </div>
-                      <div class="col-sm-8">
-                        <p>Arnaldo Piralli 34, Jardim Boa Vista</p>
-                      </div>
-                      <div class="col-sm-2">
-                        <Link to="/score" className="btn btn-success">Avaliar</Link>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-sm-12 shadow-sm bg-white rounded-lg mt-3 p-3">
-                    <div class="row">
-                      <div class="col-sm-2">
-                        <img src="https://www.plantapronta.com.br/projetos/140/01.jpg" className="img-fluid" />
-                      </div>
-                      <div class="col-sm-8">
-                        <p>Arnaldo Piralli 34, Jardim Boa Vista</p>
-                      </div>
-                      <div class="col-sm-2">
-                        <Link to="/score" className="btn btn-success">Avaliar</Link>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-sm-12 shadow-sm bg-white rounded-lg mt-3 p-3">
-                    <div class="row">
-                      <div class="col-sm-2">
-                        <img src="https://www.plantapronta.com.br/projetos/140/01.jpg" className="img-fluid" />
-                      </div>
-                      <div class="col-sm-8">
-                        <p>Arnaldo Piralli 34, Jardim Boa Vista</p>
-                      </div>
-                      <div class="col-sm-2">
-                        <Link to="/score" className="btn btn-success">Avaliar</Link>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-sm-12 shadow-sm bg-white rounded-lg mt-3 p-3">
-                    <div class="row">
-                      <div class="col-sm-2">
-                        <img src="https://www.plantapronta.com.br/projetos/140/01.jpg" className="img-fluid" />
-                      </div>
-                      <div class="col-sm-8">
-                        <p>Arnaldo Piralli 34, Jardim Boa Vista</p>
-                      </div>
-                      <div class="col-sm-2">
-                        <Link to="/score" className="btn btn-success">Avaliar</Link>
-                      </div>
-                    </div>
-                  </div>
+                <ListaImovel label="Arnaldo Piralli 34, Jardim Boa Vista"/>
+                <ListaImovel label="Arnaldo Piralli 34, Jardim Boa Vista"/>
+                <ListaImovel label="Arnaldo Piralli 34, Jardim Boa Vista"/>
+                <ListaImovel label="Arnaldo Piralli 34, Jardim Boa Vista"/>
+                <ListaImovel label="Arnaldo Piralli 34, Jardim Boa Vista"/>
+                <ListaImovel label="Arnaldo Piralli 34, Jardim Boa Vista"/>
+                <ListaImovel label="Arnaldo Piralli 34, Jardim Boa Vista"/>
+                <ListaImovel label="Arnaldo Piralli 34, Jardim Boa Vista"/>
+                <ListaImovel label="Arnaldo Piralli 34, Jardim Boa Vista"/>
+                <ListaImovel label="Arnaldo Piralli 34, Jardim Boa Vista"/>
                 </div>
               </div>
             </div>
