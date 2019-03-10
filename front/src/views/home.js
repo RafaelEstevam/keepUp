@@ -45,6 +45,8 @@ class App extends Component {
             <Menu />
             
             <div class="col-sm-10 p-3 bg-light">
+              <h1 class="font-weight-light">Dashboard</h1>
+
             </div>
           </div>
         </div>
