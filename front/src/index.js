@@ -3,7 +3,8 @@ import ReactDOM from 'react-dom';
 import './styles/index.css';
 import './styles/bootstrap.min.css';
 import Home from './views/home';
-import Lists from './views/lists';
+import ScoreList from './views/lists';
+import Score from './views/score';
 // import Home from './views/home';
 // import Login from './views/login';
 // import Logout from './views/logout';
@@ -25,7 +26,8 @@ ReactDOM.render(
         <BrowserRouter>
             <Switch>
                 <Route path="/" exact={true} component={Home} />
-                <Route path="/list" exact={true} component={Lists} />
+                <Route path="/scores" exact={true} component={ScoreList} />
+                <Route path="/score" exact={true} component={Score} />
                 {/* <Route path="/register" exact={true} component={Register} />
                 <Route path="/logout" exact={true} component={Logout}/>
                 <Route path="/profile/:user_name" exact={true} component={Profile}/>

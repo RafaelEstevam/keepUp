@@ -29,17 +29,9 @@ class menu extends Component{
 
         return(
             <div className="col-sm-2 bg-dark">
-            <div>
-            <Link to="/" className="nav-link">
-            Dashboard
-            </Link>
-            <Link to="/list" className="nav-link">
-            Avaliações
-            </Link>
-            <a className="nav-link" href="#">
-            Perfil
-            </a>
-            </div>
+                <Link to="/" className="nav-link">Dashboard</Link>
+                <Link to="/scores" className="nav-link">Avaliações</Link>
+                <Link to="/profile" className="nav-link">Perfil</Link>  
             </div>
         )
     }

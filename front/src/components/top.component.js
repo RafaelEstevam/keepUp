@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import TopConfig from '../configs/top.config';
-import { Link, Redirect, Route } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 class Top extends Component{
 

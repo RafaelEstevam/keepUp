@@ -5,6 +5,7 @@ import Menu from '../components/menu.component';
 import TimeLine from '../boxes/timeline.box';
 import $ from 'jquery';
 import connection from '../connection'
+import { Link } from 'react-router-dom'
 
 class App extends Component {
 
@@ -50,18 +51,289 @@ class App extends Component {
                   <div class="col-sm-12 shadow-sm bg-white rounded-lg mt-3 p-3">
                     <div class="row">
                       <div class="col-sm-2">
-                        <img src="#" /  >
+                        <img src="#" />
                       </div>
                       <div class="col-sm-8">
-                        <p>Casa </p>
+                        <p>Casa 3 quartos no Jardim Aquárius</p>
                       </div>
                       <div class="col-sm-2">
-                        <button class="btn btn-success">
-                          Avaliar
-                        </button>
+                        <Link to="/score" className="btn btn-success">Avaliar</Link>
                       </div>
                     </div>
                   </div>  
+                  <div class="col-sm-12 shadow-sm bg-white rounded-lg mt-3 p-3">
+                    <div class="row">
+                      <div class="col-sm-2">
+                        <img src="#" />
+                      </div>
+                      <div class="col-sm-8">
+                        <p>Casa 3 quartos no Jardim Aquárius</p>
+                      </div>
+                      <div class="col-sm-2">
+                        <Link to="/score" className="btn btn-success">Avaliar</Link>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 shadow-sm bg-white rounded-lg mt-3 p-3">
+                    <div class="row">
+                      <div class="col-sm-2">
+                        <img src="#" />
+                      </div>
+                      <div class="col-sm-8">
+                        <p>Casa 3 quartos no Jardim Aquárius</p>
+                      </div>
+                      <div class="col-sm-2">
+                        <Link to="/score" className="btn btn-success">Avaliar</Link>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 shadow-sm bg-white rounded-lg mt-3 p-3">
+                    <div class="row">
+                      <div class="col-sm-2">
+                        <img src="#" />
+                      </div>
+                      <div class="col-sm-8">
+                        <p>Casa 3 quartos no Jardim Aquárius</p>
+                      </div>
+                      <div class="col-sm-2">
+                        <Link to="/score" className="btn btn-success">Avaliar</Link>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 shadow-sm bg-white rounded-lg mt-3 p-3">
+                    <div class="row">
+                      <div class="col-sm-2">
+                        <img src="#" />
+                      </div>
+                      <div class="col-sm-8">
+                        <p>Casa 3 quartos no Jardim Aquárius</p>
+                      </div>
+                      <div class="col-sm-2">
+                        <Link to="/score" className="btn btn-success">Avaliar</Link>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 shadow-sm bg-white rounded-lg mt-3 p-3">
+                    <div class="row">
+                      <div class="col-sm-2">
+                        <img src="#" />
+                      </div>
+                      <div class="col-sm-8">
+                        <p>Casa 3 quartos no Jardim Aquárius</p>
+                      </div>
+                      <div class="col-sm-2">
+                        <Link to="/score" className="btn btn-success">Avaliar</Link>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 shadow-sm bg-white rounded-lg mt-3 p-3">
+                    <div class="row">
+                      <div class="col-sm-2">
+                        <img src="#" />
+                      </div>
+                      <div class="col-sm-8">
+                        <p>Casa 3 quartos no Jardim Aquárius</p>
+                      </div>
+                      <div class="col-sm-2">
+                        <Link to="/score" className="btn btn-success">Avaliar</Link>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 shadow-sm bg-white rounded-lg mt-3 p-3">
+                    <div class="row">
+                      <div class="col-sm-2">
+                        <img src="#" />
+                      </div>
+                      <div class="col-sm-8">
+                        <p>Casa 3 quartos no Jardim Aquárius</p>
+                      </div>
+                      <div class="col-sm-2">
+                        <Link to="/score" className="btn btn-success">Avaliar</Link>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 shadow-sm bg-white rounded-lg mt-3 p-3">
+                    <div class="row">
+                      <div class="col-sm-2">
+                        <img src="#" />
+                      </div>
+                      <div class="col-sm-8">
+                        <p>Casa 3 quartos no Jardim Aquárius</p>
+                      </div>
+                      <div class="col-sm-2">
+                        <Link to="/score" className="btn btn-success">Avaliar</Link>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 shadow-sm bg-white rounded-lg mt-3 p-3">
+                    <div class="row">
+                      <div class="col-sm-2">
+                        <img src="#" />
+                      </div>
+                      <div class="col-sm-8">
+                        <p>Casa 3 quartos no Jardim Aquárius</p>
+                      </div>
+                      <div class="col-sm-2">
+                        <Link to="/score" className="btn btn-success">Avaliar</Link>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 shadow-sm bg-white rounded-lg mt-3 p-3">
+                    <div class="row">
+                      <div class="col-sm-2">
+                        <img src="#" />
+                      </div>
+                      <div class="col-sm-8">
+                        <p>Casa 3 quartos no Jardim Aquárius</p>
+                      </div>
+                      <div class="col-sm-2">
+                        <Link to="/score" className="btn btn-success">Avaliar</Link>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 shadow-sm bg-white rounded-lg mt-3 p-3">
+                    <div class="row">
+                      <div class="col-sm-2">
+                        <img src="#" />
+                      </div>
+                      <div class="col-sm-8">
+                        <p>Casa 3 quartos no Jardim Aquárius</p>
+                      </div>
+                      <div class="col-sm-2">
+                        <Link to="/score" className="btn btn-success">Avaliar</Link>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 shadow-sm bg-white rounded-lg mt-3 p-3">
+                    <div class="row">
+                      <div class="col-sm-2">
+                        <img src="#" />
+                      </div>
+                      <div class="col-sm-8">
+                        <p>Casa 3 quartos no Jardim Aquárius</p>
+                      </div>
+                      <div class="col-sm-2">
+                        <Link to="/score" className="btn btn-success">Avaliar</Link>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 shadow-sm bg-white rounded-lg mt-3 p-3">
+                    <div class="row">
+                      <div class="col-sm-2">
+                        <img src="#" />
+                      </div>
+                      <div class="col-sm-8">
+                        <p>Casa 3 quartos no Jardim Aquárius</p>
+                      </div>
+                      <div class="col-sm-2">
+                        <Link to="/score" className="btn btn-success">Avaliar</Link>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 shadow-sm bg-white rounded-lg mt-3 p-3">
+                    <div class="row">
+                      <div class="col-sm-2">
+                        <img src="#" />
+                      </div>
+                      <div class="col-sm-8">
+                        <p>Casa 3 quartos no Jardim Aquárius</p>
+                      </div>
+                      <div class="col-sm-2">
+                        <Link to="/score" className="btn btn-success">Avaliar</Link>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 shadow-sm bg-white rounded-lg mt-3 p-3">
+                    <div class="row">
+                      <div class="col-sm-2">
+                        <img src="#" />
+                      </div>
+                      <div class="col-sm-8">
+                        <p>Casa 3 quartos no Jardim Aquárius</p>
+                      </div>
+                      <div class="col-sm-2">
+                        <Link to="/score" className="btn btn-success">Avaliar</Link>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 shadow-sm bg-white rounded-lg mt-3 p-3">
+                    <div class="row">
+                      <div class="col-sm-2">
+                        <img src="#" />
+                      </div>
+                      <div class="col-sm-8">
+                        <p>Casa 3 quartos no Jardim Aquárius</p>
+                      </div>
+                      <div class="col-sm-2">
+                        <Link to="/score" className="btn btn-success">Avaliar</Link>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 shadow-sm bg-white rounded-lg mt-3 p-3">
+                    <div class="row">
+                      <div class="col-sm-2">
+                        <img src="#" />
+                      </div>
+                      <div class="col-sm-8">
+                        <p>Casa 3 quartos no Jardim Aquárius</p>
+                      </div>
+                      <div class="col-sm-2">
+                        <Link to="/score" className="btn btn-success">Avaliar</Link>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 shadow-sm bg-white rounded-lg mt-3 p-3">
+                    <div class="row">
+                      <div class="col-sm-2">
+                        <img src="#" />
+                      </div>
+                      <div class="col-sm-8">
+                        <p>Casa 3 quartos no Jardim Aquárius</p>
+                      </div>
+                      <div class="col-sm-2">
+                        <Link to="/score" className="btn btn-success">Avaliar</Link>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 shadow-sm bg-white rounded-lg mt-3 p-3">
+                    <div class="row">
+                      <div class="col-sm-2">
+                        <img src="#" />
+                      </div>
+                      <div class="col-sm-8">
+                        <p>Casa 3 quartos no Jardim Aquárius</p>
+                      </div>
+                      <div class="col-sm-2">
+                        <Link to="/score" className="btn btn-success">Avaliar</Link>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 shadow-sm bg-white rounded-lg mt-3 p-3">
+                    <div class="row">
+                      <div class="col-sm-2">
+                        <img src="#" />
+                      </div>
+                      <div class="col-sm-8">
+                        <p>Casa 3 quartos no Jardim Aquárius</p>
+                      </div>
+                      <div class="col-sm-2">
+                        <Link to="/score" className="btn btn-success">Avaliar</Link>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 shadow-sm bg-white rounded-lg mt-3 p-3">
+                    <div class="row">
+                      <div class="col-sm-2">
+                        <img src="#" />
+                      </div>
+                      <div class="col-sm-8">
+                        <p>Casa 3 quartos no Jardim Aquárius</p>
+                      </div>
+                      <div class="col-sm-2">
+                        <Link to="/score" className="btn btn-success">Avaliar</Link>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
