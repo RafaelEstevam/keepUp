@@ -2,13 +2,13 @@
 
 ## Criar uma aplicação para Gerenciamento de visitas e store no ramo imobiliario, tenha o match com seu imóvel dos sonhos.
 
-# Pré-requisitos:
-## - Ter instalado uma IDLE.
-## - Ter o sistema de controlr de versão GIT instalado: ->https://git-scm.com/: 
+## Pré-requisitos:
+### - Ter instalado uma IDLE.
+### - Ter o sistema de controlr de versão GIT instalado: ->https://git-scm.com/: 
 
-# Como executar o Projeto:
-## 1. *Executar o programa **Git Bash Here***
-## 2. Fazer clone do repositôrio dispónivel em: -> https://github.com/RafaelEstevam/keepUp.
+## Como executar o Projeto:
+### 1. *Executar o programa **Git Bash Here***
+### 2. Fazer clone do repositôrio dispónivel em: -> https://github.com/RafaelEstevam/keepUp.
 
 **Execute o seguinte comando no cmd do Windows:** 
 
