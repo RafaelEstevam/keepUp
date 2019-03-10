@@ -46,7 +46,22 @@ class App extends Component {
             
             <div class="col-sm-10 p-3 bg-light">
               <h1 class="font-weight-light">Dashboard</h1>
-
+              <div class="row">
+                <div class="col-sm-8">
+                  <div class="row-fluid bg-white">
+                    <div class="col-sm-12">
+                      <h2>Extrato</h2>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                  <div class="row-fluid bg-white">
+                    <div class="col-sm-12">
+                      asdf
+                    </div>
+                  </div>
+                </div> 
+              </div>
             </div>
           </div>
         </div>
